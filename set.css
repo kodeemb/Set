@@ -1,0 +1,103 @@
+/*
+  NAME: Kodee Batchelor
+  DATE: 4/21/2025
+  SECTION/TA: Internet Development 2025
+
+  This file sets up the structure of the 'Set!' website by adding boxes and pictures. The board is created here for the game to be played on. 
+ */
+
+body, button, select, input {
+  text-align: center;
+  font-size: 12pt;
+  font-family: Helvetica, Verdana, sans-serif;
+}
+
+main {
+  width: 80%;
+  margin: auto;
+}
+
+button, select {
+  padding: 8px;
+  background-color: white;
+  border: 2pt solid black;
+}
+
+h2 {
+  text-decoration: underline;
+  font-size: 16pt;
+}
+
+#start-btn {
+  width: 100px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+#menu-view > article {
+  background-color: #6F77ED;
+  border-radius: 0.35em;
+  border: 5pt solid black;
+  color: white;
+}
+
+#details-bar { 
+  align-items: center;
+  background-color: black;
+  border-radius: 0.5em;
+  color: white;
+  display: flex;
+  font-size: 14pt;
+  justify-content: space-evenly;
+}
+
+.card {
+  align-items: center;
+  border: solid black 0.35em;
+  border-radius: 1em;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-evenly;
+  height: 95px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  width: 220px;
+}
+
+.selected {
+ box-shadow: 6px 6px #636363; 
+}
+
+.hide-imgs {
+  border: solid black 0.35em;
+  border-radius: 1em;
+}
+
+.hide-imgs > img {
+  display: none;
+}
+
+.card > p {
+  align-items: center;
+  font: bold;
+  font-size: 16pt;
+}
+
+.card > img {
+  height: 85%;
+}
+
+.hidden {
+  display: none;
+}
+
+#board {
+  align-items: center;
+  border-bottom: solid black 5pt;
+  border-left: solid black 5pt;
+  border-right: solid black 5pt;
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-evenly;
+  padding: 20px;
+}
